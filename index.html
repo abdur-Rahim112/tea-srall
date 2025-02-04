@@ -9,9 +9,9 @@
     <title>Document</title>
 </head>
 <body class="p-[100px]">
-    <nav class="flex justify-around relative">
+    <nav class="flex flex-col lg:flex-row justify-around relative">
         <div>
-            <h1 class="text-7xl text-[#000000] font-bold">It's good <br>
+            <h1 class="text-4xl lg:text-7xl text-[#000000] font-bold">It's good <br>
                 tea time at The <br> Tea House </h1>
                 <p class="mt-6 text-slate-500 ">Tea and Botanical Solutions Supplier Give Optimum <br>Satisfaction To Your Taste Buds.</p>
                 <div class="flex gap-3 w-[160px] bg-orange-600 p-4 rounded-lg mt-5">
@@ -23,9 +23,9 @@
         </div>
 
         <div>
-            <img class="h-[480px] w-[600px]" src="./images/banner.png" alt="">
+            <img class=" h-[200px] w-[300px] lg:h-[480px] lg:w-[600px]" src="./images/banner.png" alt="">
 
-            <div class="flex gap-4 absolute  bottom-0 bg-white shadow-2xl mb-8 p-2 ml-[100px] rounded-2xl">
+            <div class="mt-[-50px] lg:mt-0 flex gap-4 absolute  lg:bottom-0 bg-white shadow-2xl mb-8 p-2 lg:ml-[100px] rounded-2xl">
                 <div>
                     <div class="rating mt-2">
                         <input type="radio" name="rating-9" class="rating-hidden" />
@@ -49,5 +49,56 @@
        
     </nav>
     
+    <header>
+        <h1 class="text-center mt-4 font-bold text-3xl">Our Featured Products</h1>
+        <p class="mt-4 text-center text-[#777777]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form <br>, by injected humour, or randomised words which don't look even slightly believable. </p>
+        <div class="flex flex-col gap-3 lg:flex-row  lg:gap-0 justify-around mt-24">
+            <div class="bg-slate-200 p-4 h-[360px] w-[250px] rounded-xl">
+                <img class="ml-[40px] mt-4" src="images/tea-1.png" alt="">
+
+                <h1 class="text-center mt-2 text-xl font-bold">Milk Tea</h1>
+                <p class="text-center mt-2 te">Creamer could be replaced <br> by fresh milk</p>
+            </div>
+            <div  class="bg-slate-200 p-4 h-[360px] w-[250px] rounded-xl">
+                <img class="ml-[40px] mt-4"  src="images/tea-2.png" alt="">
+                <h1 class="text-center mt-2 text-xl font-bold">Milk Tea</h1>
+                <p class="text-center mt-2 te">Creamer could be replaced <br> by fresh milk</p>
+            </div>
+            <div  class="bg-slate-200 p-4 h-[360px] w-[250px] rounded-xl">
+                <img class="ml-[40px] mt-4"  src="images/tea-3.png" alt="">
+                <h1 class="text-center mt-2 text-xl font-bold">Milk Tea</h1>
+                <p class="text-center mt-2 te">Creamer could be replaced <br> by fresh milk</p>
+            </div>
+            <div  class="bg-slate-200 p-4 h-[360px] w-[250px] rounded-xl">
+                <img class="ml-[40px] mt-4"  src="images/tea-4.png" alt="">
+                <h1 class="text-center mt-2 text-xl font-bold">Milk Tea</h1>
+                <p class="text-center mt-2 te">Creamer could be replaced <br> by fresh milk</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="mt-28 grid grid-cols-1 lg:grid-cols-2">
+<div class="flex gap-8">
+    <div class="bg-red-100 rounded-xl h-[100px] w-[200px]">
+        <img  class="mt-28 p-6 rounded-xl bg-slate-200 " src="images/fresh-2.png" alt="">
+    </div>
+    <div>
+        <img class=" p-6 rounded-xl  bg-slate-200 " src="images/fresh-1.png" alt="">
+        <div class="bg-slate-100 mt-[20px] w-[230px] h-[100px] rounded-xl"></div>
+    </div>
+
+
+<div></div>
+</div>
+<div>
+    <h1 class="font-bold text-3xl">Great Tea, Freshly <br>
+         Presented</h1>
+         <p class="text-[#777777] mt-4">The meaning of gong cha is chanese is to provide the best tea to emperor <br> from all possessions . It represents the highest quality and self expectation. <br> Establishing in 2006, Gong cha had been deeply appreciated by its custoers  <br>because of good words of mouth and unique customized service orginated <br> from Taiwan.</p>
+         <h3 class="text-xl font-bold mt-4">Unique Taste</h3>
+         <p class="text-[#777777] mt-4">A Unique and different style from other teapots gives a <br> luxurious and minimalist impression</p>
+         <h3  class="text-xl font-bold mt-4"> Premium Quality</h3>
+         <p class="text-[#777777] mt-4">Premium Quality that makes tea more <br>elegant and more durable when you use it.</p>
+</div>
+    </section>
 </body>
 </html>
